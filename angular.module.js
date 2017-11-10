@@ -10,13 +10,13 @@
 
             // route for the home page
             .when('/', {
-                templateUrl : 'pages/main.html',
+                templateUrl : '/app/components/main/main.html',
                 controller  : 'mainController'
             })
 
             // route for the about page
             .when('/favorites', {
-                templateUrl : 'pages/favorites.html',
+                templateUrl : 'favorites.html',
                 controller  : 'favoritesController'
             })
     });
